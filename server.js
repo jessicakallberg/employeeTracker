@@ -11,7 +11,7 @@ const menuQuestions =
     {
         type: "list",
         name: "menu",
-        message: "What would you like to do?",
+        message: "What would you like to do today?",
         choices: [
         "View All Departments",
         "View All Roles",
@@ -21,6 +21,7 @@ const menuQuestions =
         "Add a Role",
         "Add an Employee",
         "Update an Employee's Role",
+        "Exit",
         // "Update an Employee's Manager",
         ],
     }
